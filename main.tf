@@ -15,7 +15,7 @@ terraform {
     organization = "3xmgroup"
 
     workspaces {
-      name = "po3xmgroup-ec2-static-website"
+      name = "po3xmgroup-staticsite"
     }
   }
 }
