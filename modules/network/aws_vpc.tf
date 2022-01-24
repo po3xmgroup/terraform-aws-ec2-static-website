@@ -6,5 +6,6 @@ resource "aws_vpc" "vpc" {
   tags = {
     createdby = "po3xm"
     project   = "training"
+    Name = "po3xm-vpc"
   }
 } 
