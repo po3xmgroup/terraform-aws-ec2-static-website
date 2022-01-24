@@ -27,6 +27,7 @@ resource "aws_security_group" "sgpo" {
   tags = {
     createdby = "po3xm"
     project   = "training"
+    Name = "po3xm-sg"
   }
   
 }

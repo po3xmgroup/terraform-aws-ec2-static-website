@@ -5,5 +5,6 @@ resource "aws_subnet" "subnet" {
   tags = {
     createdby = "po3xm"
     project   = "training"
+    Name = "po3xm-subnet"
   }
 }
